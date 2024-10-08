@@ -1,2 +1,0 @@
-# client
-Punya Wahyu cik
