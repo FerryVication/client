@@ -1,0 +1,50 @@
+:root {
+--warna-bg: rgba(0,0,0,0);
+--warna-teks: rgb(255,255,255);
+--warna-bingkai: rgb(35,234,239);
+--bingkai: 5px;
+--gaya-font: Times;
+}
+.love {
+display: inline-block;
+position: relative;
+top: .1.0em;
+font-size: 25px;
+color: #e74c3c;
+-webkit-transform: scale(.9);
+-moz-transform: scale(.9);
+transform: scale(.9);
+-webkit-animation: love .5s infinite linear alternate-reverse;
+-moz-animation: love .5s infinite linear alternate-reverse;
+animation: love .5s infinite linear alternate-reverse;
+}
+@-webkit-keyframes love {
+to {
+-webkit-transform: scale(1.4);
+}
+}
+@-moz-keyframes love {
+to {
+-moz-transform: scale(1.4);
+}
+}
+@keyframes love {
+to {
+transform: scale(1.2);
+}
+}
+.tb:hover:active {
+color: rgb(42,242,74);
+font-size: 25px;
+}
+#weem {
+margin-top: 320px;
+text-align: left;
+font-family: Times;
+}
+#bq #kalimat {
+font-family: Times;
+}
+*, html, body {
+scroll-behavior: smooth;
+}
